@@ -17,3 +17,28 @@ body {
   justify-content: center;
   margin-top: 50px;
 }
+
+.grid {
+  width: 380px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.screen {
+  width: auto;
+  grid-column: 1 / -1;
+}
+
+.ac {
+  grid-column: 1 / span 2;
+}
+
+.equal {
+  grid-column: 4 / 5;
+  grid-row: -3 / -1;
+}
+
+.zero {
+  grid-column: 1 / span 2;
+}
