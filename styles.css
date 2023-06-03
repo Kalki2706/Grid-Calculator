@@ -44,7 +44,12 @@ body {
   font-size: 14px;
   border: none;
   border: 1px solid #000;
+  cursor: pointer;
   transition: background-color 0.2s;
+}
+
+.buttons:hover {
+  background-color: #179da1;
 }
 
 .buttons:active {
